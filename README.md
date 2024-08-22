@@ -1,8 +1,8 @@
-# SRPSHELL
+# SPRSHELL
 A simply shell made in pure C.
 
 ## Basic lifetime of a shell
-Let's look at a shell from the top down. A shell does tree main things in its lifetime.
+Let's look at a shell from the top down. A shell does three main things in its lifetime.
 
 - **Iniatialize:** In this step, a typical shell would read and execute its configuration files. These changes aspects of the shell's behavior.
 - **Interpret:** Next, the shell reads commands from stdin (which could be interactive, or a file) and executes them.
