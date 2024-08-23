@@ -1,7 +1,5 @@
 #!/bin/bash
 
-#!/bin/bash
-
 # Define colors for output
 yellowColour='\033[1;33m'
 greenColour='\033[0;32m'
