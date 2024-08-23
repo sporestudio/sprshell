@@ -1,5 +1,17 @@
-# SPRSHELL
-A simply shell made in pure C.
+<div align="center">
+    <img src=".assets/logo/spr-shell.png" src="sprshell"/>
+</div>
+
+<div align="center">
+    <h1>SPRSHELL</h1>
+
+    A simply shell made in pure C.
+
+</div>
+
+<div align="center">
+    <img src=".assets/gif/sprshell-use.gif" src="sprshell-use"/>
+</div>
 
 ## Basic lifetime of a shell
 Let's look at a shell from the top down. A shell does three main things in its lifetime.
@@ -17,4 +29,16 @@ So we’ve taken care of how the program should start up. Now, for the basic pro
 
 
 ## :wrench: Setup
-> :warning: The shell is under construction. Instructions for its use will be published at a later date.
+To run the program automatically, run the setup.sh script (as root). The script will check if we have the necessary dependencies installed, and it will compile and run the program for us. 
+
+>We must give it execution permissions if necessary:
+
+```bash
+chmod +x setup.sh
+```
+
+>And then run the script as root:
+
+```bash
+sudo setup.sh
+```
