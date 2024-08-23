@@ -5,7 +5,7 @@
 <div align="center">
     <h1>SPRSHELL</h1>
 
-    A simply shell made in pure C.
+<h4>A simply shell made in pure C.</h4>
 
 </div>
 
@@ -33,12 +33,12 @@ To run the program automatically, run the setup.sh script (as root). The script 
 
 >We must give it execution permissions if necessary:
 
-```bash
-chmod +x setup.sh
+```sh
+$ chmod +x setup.sh
 ```
 
 >And then run the script as root:
 
-```bash
-sudo setup.sh
+```sh
+$ sudo setup.sh
 ```
